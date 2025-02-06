@@ -27,6 +27,11 @@ git clone https://github.com/fangwei123456/spikingjelly.git
 cd spikingjelly
 python setup.py install
 ```
+## If this one is not working, run the following command:
+```
+pip install spikingjelly==0.0.0.0.12
+```
+Because this version of the spikingjelly has clock_driven which we are using in the code. 
 
 ## Training and testing
 
